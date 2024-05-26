@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --azul: #114876;
+  --naranja: #CE6E2E;
+  --gris: #76828C;
+  --blanco: #e4e4e4;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body::-webkit-scrollbar,
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track,
+textarea::-webkit-scrollbar-track {
+  background: var(--blanco);
+}
+body::-webkit-scrollbar-thumb,
+textarea::-webkit-scrollbar-thumb {
+  background-color: var(--gris);
+  border-radius: 5px;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  --color-agro-primary: #CE6E2E;
+  --color-agro-secondary: #114876;
+  --color-agro-gray10: #b1b1b1;
+}
+.home{
+  max-width: 1400px;
+
+}
+.container_caleta{
+  max-width: 1400px;
+}
+
+.bg-gris{
+  background-color: var(--gris);
+}
+
+
+/* @import '../node_modules/bootstrap/scss/bootstrap.scss'; */

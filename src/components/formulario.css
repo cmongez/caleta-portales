@@ -1,0 +1,20 @@
+.formulario{
+    min-height: 600px;
+  }
+.input_style{
+    min-height: 45px;
+    border-radius: 4px;
+    padding: 10px;
+}
+.textarea_style{
+    border-radius: 4px;
+    padding: 10px;
+    min-height: 150px;
+}
+.btn-gris{
+    background-color: #646c72;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 0;
+}
